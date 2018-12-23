@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import '../dist/style.css';
-
 
 class Header extends Component {
   render() {
@@ -21,8 +19,8 @@ class Header extends Component {
                     <p id="header-slogan">University of modern science</p>
 
                     <div className="social-btn">
-                      <a className="icon-twitter-bird" href="index.html#"></a>
-                      <a className="icon-linkedin-rect" href="index.html#"></a>
+                      <a className="fas fa-linkedin" href="index.html#"></a>
+                      <a className="fa faTwitter" href="index.html#"></a>
                       <a className="icon-facebook-rect" href="index.html#"></a>
                     </div>
                   </div>
